@@ -1,0 +1,53 @@
+
+ {
+    box-sizing border-box;
+}
+
+body {
+    margin 0;
+    font-family Arial, sans-serif;
+    background #f1f5f9;
+    color #1e293b;
+}
+
+header {
+    background #0f172a;
+    color white;
+    padding 40px 20px;
+    text-align center;
+}
+
+main {
+    display flex;
+    justify-content center;
+    padding 50px 20px;
+}
+
+.card {
+    background white;
+    max-width 600px;
+    width 100%;
+    padding 30px;
+    border-radius 12px;
+    box-shadow 0 4px 16px #00000015;
+    text-align center;
+}
+
+button {
+    background #2563eb;
+    color white;
+    border 0;
+    padding 12px 20px;
+    border-radius 6px;
+    cursor pointer;
+}
+
+buttonhover {
+    background #1d4ed8;
+}
+
+footer {
+    text-align center;
+    padding 20px;
+    color #64748b;
+}

@@ -1,0 +1,9 @@
+services:
+  apache:
+    image: httpd:2.4
+    container_name: meu-apache
+    ports:
+      - "8080:80"
+    volumes:
+      - ./:/usr/local/apache2/htdocs/
+    restart: unless-stopped
